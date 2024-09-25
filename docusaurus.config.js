@@ -8,13 +8,13 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Akara',
   tagline: 'Never Knows Best',
-  url: 'https://messiahhh.github.io/',
-  baseUrl: '/blog/', 
+  url: 'https://rainchat.github.io/',
+  baseUrl: '/wiki/', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'messiahhh', // Usually your GitHub org/user name.
-  projectName: 'blog', // Usually your repo name.
+  organizationName: 'rainchat', // Usually your GitHub org/user name.
+  projectName: 'wiki', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   plugins: ['@docusaurus/theme-live-codeblock'],
   i18n: {
@@ -85,7 +85,7 @@ const config = {
           },
           {to: 'blog/面经', label: '面经', position: 'right'},
           {
-            href: 'https://github.com/messiahhh/blog',
+            href: 'https://github.com/rainchat/blog',
             label: 'GitHub',
             position: 'right',
           },
