@@ -9,12 +9,13 @@ const config = {
   title: 'Akara',
   tagline: 'Never Knows Best',
   url: 'https://rainchat.github.io/',
-  baseUrl: '/wiki/', 
+  baseUrl: '/blog/', 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
+  trailingSlash: false,
   favicon: 'img/favicon.ico',
   organizationName: 'rainchat', // Usually your GitHub org/user name.
-  projectName: 'wiki', // Usually your repo name.
+  projectName: 'blog', // Usually your repo name.
   deploymentBranch: 'gh-pages',
   plugins: ['@docusaurus/theme-live-codeblock'],
   i18n: {
